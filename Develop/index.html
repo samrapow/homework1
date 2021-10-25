@@ -3,27 +3,37 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!-- Changed order of title and link--> 
+    <!-- Changed title to 'Horiseon' -->
+    <title>Horiseon</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
+    <!-- Changed from div to header-->
+    <header>
+        <!-- Took away h1 class -->
+        <!-- Changed 'seo' from class to id -->
+        <h1>Hori<span id="seo">seo</span>n</h1>
+        <!-- Added div class -->
+        <div class="quicksearch">
+            <!-- Added ul class -->
+            <ul class="quicksearch-list">
+                <!-- Added li class for all elements of list -->
+                <li class="quicksearch-list-items">
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
-                <li>
+                <li class="quicksearch-list-items">
                     <a href="#online-reputation-management">Online Reputation Management</a>
                 </li>
-                <li>
+                <li class="quicksearch-list-items">
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
+    <!-- Added space -->
+    
     <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">

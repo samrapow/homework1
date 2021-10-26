@@ -1,11 +1,59 @@
+/* Put in alphanumeric order */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* changed benefits to ID */
+#benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
 body {
     background-color: #d9dcd6;
+}
+
+/* changed content to ID */
+#content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    /*max-height: 200px; */
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* changed from class to tag */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
 }
 
 /* Changed to header element */
@@ -22,40 +70,6 @@ header h1 {
     font-size: 48px;
 }
 
-/* Changed to id */
-#seo {
-    color: #d9dcd6;
-}
-
-/* Changed to new class */
-#quicksearch{
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-/* Changed to new class */
-#quicksearch-list {
-    list-style-type: none;
-}
-
-/* Changed to new class */
-.quicksearch-list-items{
-    display: inline-block;
-    margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 /* moved background image to html */
 /* referenced img inside hero class */
 #hero img{
@@ -64,54 +78,6 @@ p {
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-    /*max-height: 200px; */
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* changed content to ID */
-#content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* changed benefits to ID */
-#benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-/* changed to common class */
-/* deleted repeated classes for vertical content benefits */
-.vertical-content {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.vertical-content h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.vertical-content img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 /* common content class */
@@ -139,14 +105,49 @@ p {
     font-size: 36px;
 }
 
-/* changed from class to tag */
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+p {
+    font-size: 16px;
+}
+
+/* Changed to new class */
+#quicksearch{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Changed to new class */
+#quicksearch-list {
+    list-style-type: none;
+}
+
+/* Changed to new class */
+.quicksearch-list-items{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Changed to id */
+#seo {
+    color: #d9dcd6;
+}
+
+/* changed to common class */
+/* deleted repeated classes for vertical content benefits */
+.vertical-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.vertical-content h3 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
+.vertical-content img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }

@@ -6,7 +6,7 @@ I reformatted the given index.html and style.css files to align with the instruc
 
 ## Screenshot
 
-[The following image is a screenshot of my completed page:](./Assets/hw1_screenshot.jpg)
+[Screenshot of my completed page](./Assets/hw1_screenshot.jpg)
 
 ## Links
 

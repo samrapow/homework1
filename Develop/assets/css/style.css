@@ -52,7 +52,8 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* Changed to reflect new h4 element */
+footer h4 {
     font-size: 20px;
 }
 

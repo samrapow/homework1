@@ -44,7 +44,7 @@ body {
     margin-left: 25px;
 }
 
-/* changed from class to tag */
+/* changed from class to element */
 footer {
     padding: 30px;
     clear: both;
@@ -119,7 +119,7 @@ p {
     font-size: 20px;
 }
 
-/* Changed to new class */
+/* Changed to new id */
 #quicksearch-list {
     list-style-type: none;
 }

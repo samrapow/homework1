@@ -10,4 +10,4 @@ I reformatted the given index.html and style.css files to align with the instruc
 
 ## Links
 
-[Deployed application](https://samrapow.github.io/homework1/Develop/index.html)
+[Deployed application](https://samrapow.github.io/homework1-html-css-git-code-refactor/Develop/index.html)
